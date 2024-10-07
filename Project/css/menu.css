@@ -1,0 +1,221 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: red;
+    color: white;
+    padding: 20px;
+    align-items: center;
+} 
+
+.links ul li {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+h2 a {
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.menus ul li {
+    display: inline-block;
+}
+
+.menus ul li a {
+    text-decoration: none;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu-btn button {
+    padding: 10px;
+    background-color: rgb(216, 24, 24);
+    border: 2px solid rgb(216, 24, 24);
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu-btn button a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.news-section {
+    padding: 10px;
+}
+
+.news-detailstop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seperate {
+    border: 7px solid rgb(235, 232, 232);
+    display: flex;
+    align-items: center;
+    background-color: white ;
+    margin-right: 20px;
+}
+
+.news-descr {
+    margin-right: 20px;
+}
+
+.news-descr h5 {
+    margin-bottom: 20px;
+}
+
+.news-img {
+    margin-right: 20px;
+}
+
+.news-section1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: rgb(235, 232, 232);
+}
+
+.news-details {
+    border: 2px solid  rgb(235, 232, 232);
+    width: min-content;
+    background-color: white;
+    justify-content: space-between;
+    margin: 0px 5px;
+}
+
+.news-imgs img {
+    width: 260px;
+    height: 150px;
+}
+
+.news-imgs {
+    margin-bottom: 10px;
+}
+
+.news-content h4 {
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.news-section2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: rgb(235, 232, 232);
+} 
+
+.seperate1 {
+    border: 7px solid rgb(235, 232, 232);
+    display: flex;
+    align-items: center;
+}
+
+.seperate2 {
+    border: 7px solid rgb(235, 232, 232);
+    display: flex;
+    align-items: center;
+
+}
+
+section {
+    background-color:  rgb(235, 232, 232);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.news-section3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-right: 17.5%;
+}
+
+.seperate3 {
+    display: flex;
+}
+
+.news-details1 {
+    background-color: white;
+    margin-right: 30px;
+}
+
+.title p {
+    margin-left: 22.5%;
+}
+.news-content-1 {
+    border: 7px solid rgb(219, 216, 216);
+    padding: 20px;
+    width: 263.2px;
+    height: 202.6px;
+    
+}
+
+.news-content-1 h6 {
+    margin: 6px 0px;
+}
+.news-content-1 p {
+    font-size: small;
+}
+
+.title1 p {
+    margin-left: 21.3%;
+}
+
+.news-section4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-right: 2%;
+}
+
+.seperate4 {
+    display: flex;
+}
+.news-section5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-right: 2%;
+}
+
+.seperate5 {
+    display: flex;
+}
+
+#login {
+    text-decoration: none;
+    color: white;
+}
+
+#GetCricFoot {
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,377 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+.shop-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.box button h1 {
+    color: white;
+    background-color: red;
+    padding: 10px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box button a {
+    text-decoration: none;
+}
+
+.orders ul li {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.search-bar {
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    padding: 7px 5px;
+}
+
+.search-bar input {
+    border: 0;
+    width: 500%;
+}
+
+.symbol {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 10px;
+}
+
+.search-bar {
+    width: 40%;
+}
+
+.symb {
+    margin-right: 40px;
+    margin-left: 10px;
+}
+
+.symb h1 {
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.menu-list ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
+
+.menu-list ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.start h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.shop-border {
+    background-color: white;
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px 2px rgb(207, 207, 207);
+}
+
+.shop-details {
+    margin-right: 20px;
+}
+
+.shop-icons {    
+    display: flex;
+    justify-content: center;
+}
+
+.shop-images img {
+    width: 60px;
+    height: 50px;
+}
+
+.shop-content {
+    margin-top: 10px;
+}
+
+.shop-content p {
+    text-align: center;
+}
+
+.purchase-details img {
+    width: 95%;
+}
+
+.purchase-img {
+    align-items: center;
+    text-align: center;
+}
+
+.purchase-details {
+    margin-bottom: 15px;
+}
+
+.sales{
+    margin: 15px;
+}
+
+.sales h2 {
+    text-align: center;
+    font-size: 30px;
+    
+}
+.sales-section {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.item-img img {
+    width: 280px;
+    height: 280px;
+}
+
+.item-content h4 {
+    margin-top: 10px;
+}
+
+.item-content p {
+    font-size: 16px;
+    width: fit-content;
+    text-wrap: wrap;
+
+}
+
+.footer-top {
+    background-color: rgb(222, 215, 215);
+    list-style-type: none;
+    padding: 20px 0px;
+}
+.bottom {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+.follow-icons ul li {
+    display: inline-block;
+}
+
+.bottom ul li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.service ul, .free-shopping ul, .inform ul, .sign-save ul {
+   line-height: 1.5;
+}
+
+.service ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.free-shopping ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.inform ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.sign-save ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.box-btn button {
+    margin: 5px 0px;
+    width: 210px;
+}
+
+.box-btn button a h1 {
+    font-size: 15px;
+    color: white;
+    background-color: red;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.follow-icons ul li i {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.downs ul li {
+    display: inline-block;
+}
+
+.downs {
+    padding: 20px;
+}
+ 
+.downs ul li a {
+    text-decoration: none;
+    color: black;
+
+} 
+
+.down2 {
+    padding: 20px;
+}
+    
+@media screen and (max-width:775px) {
+
+    .sales-section {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .items-details {
+        display: flex;
+        align-items: center;
+    }
+    
+    .sales h2 {
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width:660px) {
+    
+
+    .box-btn button {
+        margin: 5px 0px;
+        width: 150px;
+        border-radius: 20px;
+        border: none;
+    }
+
+    .box-btn button a h1 {
+        font-size: 10px;
+        /* box-shadow: 5px 0px 0px 5px rgb(191, 188, 188); */
+        border-radius: 20px;
+        border-color: red;
+    }
+
+    .sign-save ul li p {
+        display: none;
+    }
+}
+@media screen and (max-width:580px) {
+    .shop-images img {
+        width: 40px;
+        height: 35px;
+    }
+} 
+@media screen and (max-width:500px) {
+    .shop-images img {
+        width: 26px;
+        height: 23px;
+    }
+
+    .box button h1 {
+        color: white;
+        background-color: red;
+        padding: 5px;
+        font-size: 8px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .box button  {
+        margin-top: 2px;
+    }
+
+    .orders ul li {
+        display: inline-block;
+        text-decoration: none;
+        margin-right: 10px;
+        font-size: 14px;
+    }
+    .service, .free-shopping, .inform, .sign-save {
+        margin-right: 2px;
+    }
+    .bottom {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .footer-top {
+        padding: 6px 0px;
+    }
+    .menu-list ul li {
+        font-size: 16px;
+    }
+} 
+@media screen and (max-width:450px) {
+    .bottom {
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+       align-items: center;
+    }
+    .service, .sign-save, .inform, .free-shopping {
+        margin-bottom: 10px;
+    }
+    .downs ul li, .downs p {
+        font-size: 14px;
+    }
+    .downs p {
+        margin-top: 10px;
+    }
+
+    .shop-images img {
+        width: 20px;
+        height: 18px;
+    }
+
+    .box button h1 {
+        color: white;
+        background-color: red;
+        padding: 2.5px;
+        font-size: 8px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .shop-content p {
+        font-size: 14px;
+    }
+
+    .orders ul li {
+        display: inline-block;
+        text-decoration: none;
+        margin-right: 5px;
+        font-size: 12px;
+    }
+
+    .menu-list ul li {
+        font-size: 13.5px;
+    }
+    .start h3 {
+        font-size: 15px;
+    }
+    .sales h2 {
+        font-size: 20px;
+    }
+    .sales-section {
+        margin-bottom: 10px;
+    }
+    
+} 
